@@ -22,7 +22,7 @@ img {
   top: -50%;
   left: 50%;
   transform: translateX(-50%);
-  width: clamp(400px, 80vw, 900px);
+  width: clamp(300px, 60vw, 675px);
   z-index: 0;
 }
 
