@@ -9,30 +9,39 @@ body, html {
 }
 
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
 }
 
-/* IMAGE */
+/* 🍪 COOKIE (HALF OUT OF SCREEN) */
 img {
-  width: clamp(250px, 60vw, 700px);
-  margin-top: 0%;
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: clamp(400px, 80vw, 900px);
+  z-index: 0;
 }
 
-/* TITLE */
+/* 🏷️ TITLE INSIDE COOKIE */
 .title {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: "Honk";
   color: azure;
   font-size: clamp(2rem, 4vw, 4rem);
-  margin-top: 20px;
+  z-index: 1;
   text-align: center;
 }
 
 /* DESCRIPTION BOX */
 #desc {
-  margin-top: 40px;
+  margin-top: 300px; /* push content down under cookie */
   background-color: #162E49;
   border: solid 5px #2A5782;
   border-radius: 20px;
@@ -41,6 +50,7 @@ img {
   padding: 20px;
   max-width: 900px;
   width: 90%;
+  z-index: 2;
 }
 
 /* TEXT */
@@ -97,28 +107,28 @@ img {
   background-color: #3b6fa3;
 }
 
-/* ========================= */
-/* 📱 MOBILE */
-/* ========================= */
+/* 📱 MOBILE FIX */
 @media (max-width: 768px) {
+  img {
+    top: -10%;
+    width: 120vw; /* bigger so effect stays */
+  }
+
+  .title {
+    top: 10%;
+    font-size: clamp(1.5rem, 6vw, 2.5rem);
+  }
+
   #desc {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 220px;
   }
 
   .knopjes {
     flex-direction: row;
     width: 100%;
     justify-content: center;
-  }
-}
-
-/* ========================= */
-/* 🖥️ LARGE SCREENS */
-/* ========================= */
-@media (min-width: 1200px) {
-  #desc {
-    padding: 40px;
   }
 }
