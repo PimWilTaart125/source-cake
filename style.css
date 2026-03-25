@@ -16,17 +16,17 @@ body, html {
   min-height: 100vh;
 }
 
-/* 🍪 COOKIE (HALF OUT OF SCREEN) */
+
 img {
   position: absolute;
-  top: -20%;
+  top: -50%;
   left: 50%;
   transform: translateX(-50%);
   width: clamp(400px, 80vw, 900px);
   z-index: 0;
 }
 
-/* 🏷️ TITLE INSIDE COOKIE */
+
 .title {
   position: absolute;
   top: 15%;
@@ -39,7 +39,7 @@ img {
   text-align: center;
 }
 
-/* DESCRIPTION BOX */
+
 #desc {
   margin-top: 300px; /* push content down under cookie */
   background-color: #162E49;
@@ -53,7 +53,7 @@ img {
   z-index: 2;
 }
 
-/* TEXT */
+
 .text h1 {
   font-family: "Oxanium";
   font-size: clamp(1.5rem, 3vw, 2.5rem);
@@ -67,7 +67,7 @@ img {
   color: white;
 }
 
-/* ICONS */
+
 .icons {
   margin-top: 10px;
 }
@@ -82,7 +82,7 @@ img {
   margin-left: 0;
 }
 
-/* BUTTON COLUMN */
+
 .knopjes {
   display: flex;
   flex-direction: column;
@@ -90,7 +90,7 @@ img {
   justify-content: center;
 }
 
-/* BUTTON */
+
 #desc button {
   font-family: "Oxanium";
   font-weight: bold;
