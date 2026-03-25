@@ -18,7 +18,8 @@ body, html {
 /* IMAGE */
 img {
   width: clamp(250px, 60vw, 700px);
-  margin-top: 40px;
+  position: absolute;
+  top: 0px;
 }
 
 /* TITLE */
