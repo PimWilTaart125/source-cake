@@ -23,14 +23,25 @@ body {
     padding-right: 2px;
 }
 
+.playlists > div {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.playlists > div > img {
+    flex-shrink: 0;
+}
+
 img {
     border: hidden;
     border-radius: 20px;
-    height:350px;
-    width: 350px;
-    display:inline;
+    height: 352px;
+    width: 352px;
 }
 
 iframe {
-    display: inline;
+    flex: 1;
+    min-width: 300px;
 }
