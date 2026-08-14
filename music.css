@@ -13,6 +13,10 @@ body {
     padding-right: 50px;
 }
 
+.title {
+    text-align: center;
+}
+
 .txt {
     background-color: #162E49;
     color: white;
