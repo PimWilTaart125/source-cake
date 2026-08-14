@@ -28,10 +28,20 @@ body {
     gap: 20px;
     align-items: flex-start;
     margin-bottom: 30px;
+    position: relative;
+}
+
+.playlists > div > h2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    margin: 0;
 }
 
 .playlists > div > img {
     flex-shrink: 0;
+    position: relative;
 }
 
 img {
