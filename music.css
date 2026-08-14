@@ -11,5 +11,6 @@ body {
   color: white;
   border: solid 4px #2A5782;
   border-radius: 5px;
-  width: min-content;
+  width: max-content;
+  white-space: nowrap;
 }
