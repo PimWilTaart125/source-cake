@@ -26,6 +26,9 @@ body {
 img {
     border: hidden;
     border-radius: 20px;
+    height:350px;
+    width: 350px;
+    display:inline;
 }
 
 iframe {
