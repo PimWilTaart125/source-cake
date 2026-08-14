@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
   font-family: "Oxanium", sans-serif;
 }
-h1 {
+.title {
   background-color: #162E49;
   color: white;
   border: solid 2px #2A5782;
