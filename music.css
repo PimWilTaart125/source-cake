@@ -6,11 +6,21 @@ body {
   overflow-x: hidden;
   font-family: "Oxanium", sans-serif;
 }
-.title {
+.container {
+    padding-left: 50px;
+}
+.txt {
   background-color: #162E49;
   color: white;
   border: solid 4px #2A5782;
   border-radius: 5px;
   width: max-content;
   white-space: nowrap;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+img {
+    border: hidden;
+    border-radius: 20px;
 }
