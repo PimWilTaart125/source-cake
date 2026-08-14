@@ -107,7 +107,6 @@ img {
   background-color: #3b6fa3;
 }
 
-/* 📱 MOBILE FIX */
 @media (max-width: 768px) {
   img {
     top: -10%;
@@ -139,7 +138,7 @@ img {
   }
 }
 
-/* 📱 EXTRA SMALL DEVICES */
+
 @media (max-width: 480px) {
   img {
     top: -5%;

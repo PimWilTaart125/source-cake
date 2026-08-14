@@ -57,7 +57,6 @@ iframe {
     min-width: 300px;
 }
 
-/* 📱 MOBILE SUPPORT */
 @media (max-width: 768px) {
     .container {
         padding-left: 20px;
@@ -91,7 +90,7 @@ iframe {
     }
 }
 
-/* 📱 EXTRA SMALL DEVICES */
+
 @media (max-width: 480px) {
     .container {
         padding-left: 15px;
