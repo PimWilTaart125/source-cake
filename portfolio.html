@@ -6,10 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
   <link rel="icon" href="photos/cookieicon.png" />
+  <style>
+    body {
+      background-color: rgb(17, 0, 49);
+      margin: 0;
+      padding: 20px;
+      font-family: "Oxanium", sans-serif;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      background-color: #162E49;
+      border: solid 4px #2A5782;
+      border-radius: 15px;
+      padding: 40px;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      margin: 0;
+      color: azure;
+    }
+
+    p {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      margin-top: 15px;
+      line-height: 1.6;
+    }
+
+    /* 📱 MOBILE SUPPORT */
+    @media (max-width: 768px) {
+      body {
+        padding: 15px;
+      }
+
+      .container {
+        padding: 25px;
+        border-width: 3px;
+      }
+
+      h1 {
+        font-size: clamp(1.2rem, 5vw, 1.8rem);
+      }
+
+      p {
+        font-size: clamp(0.9rem, 2.5vw, 1rem);
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 10px;
+      }
+
+      .container {
+        padding: 20px;
+        border-width: 2px;
+      }
+
+      h1 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Nothing here yet...</h1>
+  <div class="container">
+    <h1>Portfolio Coming Soon...</h1>
+    <p>This section is currently under development. Check back soon for my projects and work!</p>
+  </div>
 </body>
 
 </html>
