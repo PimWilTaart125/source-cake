@@ -9,6 +9,7 @@ body {
 .title {
   background-color: #162E49;
   color: white;
-  border: solid 2px #2A5782;
-  border-radius: 1px;
+  border: solid 4px #2A5782;
+  border-radius: 5px;
+  width: min-content;
 }
