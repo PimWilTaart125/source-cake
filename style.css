@@ -110,7 +110,7 @@ img {
 @media (max-width: 768px) {
   img {
     top: -10%;
-    width: 120vw; 
+    width: 95%; 
   }
 
   .title {
