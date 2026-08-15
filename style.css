@@ -111,6 +111,7 @@ img {
   img {
     top: -10%;
     width: 95%; 
+    max-width: 750px;
   }
 
   .title {
